@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+    <link rel= "stylesheet" href="css/css.css" >
+    <script src="JS/script.js"></script>
+    
+</head>
+
+<body>
+
+    <h1>Calculadora simples usando HTML, CSS e JavaScript</h1>
+
+    <div class="calculadora">
+        <div class="visor">
+                <input type="text" id="visor">
+        </div>
+            <div class="botoes">
+                <input type="submit" value="1" onclick="unir(1);">
+                <input type="submit" value="2" onclick="unir(2);">
+                <input type="submit" value="3" onclick="unir(3);">
+                <input type="submit" value="+" class="soma" onclick="unir('+');">
+                <input type="submit" value="4" onclick="unir(4);">
+                <input type="submit" value="5" onclick="unir(5);">
+                <input type="submit" value="6" onclick="unir(6);">
+                <input type="submit" value="-" class="sub" onclick="unir('-');">
+                <input type="submit" value="7" onclick="unir(7);">
+                <input type="submit" value="8" onclick="unir(8);">
+                <input type="submit" value="9" onclick="unir(9);">
+                <input type="submit" value="/" class="divisão" onclick="unir('/');">
+                <input type="submit" value="0" onclick="unir(0);">
+                <input type="submit" value="c" class="limpar" onclick="limpar();">
+                <input type="submit" value="=" class="igual" onclick="calcular();">
+                <input type="submit" value="*" class="mult" onclick="unir('*');">
+                
+            </div>
+        
+    </div>
+</body>
+</html>
